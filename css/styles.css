@@ -113,28 +113,48 @@ a {
 	.main-nav,
 	.main-nav li {
 		display: inline-block;
-	}
+	}*/
+
+  .main-nav {
+    float: right;
+  }
 
 	.name {
-		width: 240px;
-		margin-right: 50px;
+    float: left;
+		/* width: 240px;
+		margin-right: 50px; */
 	}
 
 	.main-nav li {
-		margin-right: 12px;
+    float: left;
+    margin-left: 12px;
 	}
 
+/* ---- col Containers ---- */
+
 	.col {
-		display: inline-block;
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+		/* display: inline-block;
 		width: 50%;
 		margin-right: -4px;
 		vertical-align: top;
 		padding-left: 1em;
-		padding-right: 1em;
-	} */
+		padding-right: 1em; */
+	}
+
+  .primary {
+    width: 60%;
+  }
+
+  .secondary {
+    width: 40%;
+  }
+  /*----------------------- */
 
   .feat-img {
-		width: 300px;
+		width: 200px;
     float: left;
     margin-top: 5px;
     margin-right: 25px;
@@ -142,5 +162,11 @@ a {
     padding: 10px;
     border: solid 1px #d9e4ea;
 	}
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 }
