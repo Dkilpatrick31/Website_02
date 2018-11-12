@@ -67,12 +67,6 @@ a {
 	  color: #093a58;
   }
 
-.name a,
-.main-nav a {
-	padding: 10px 15px;
-	display: block;
-}
-
 /* ---- Layout Containers ---- */
 
 .container {
