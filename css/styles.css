@@ -42,19 +42,19 @@ a {
 	font-size: 1.25em;
 }
 
+.name a,
+.main-nav a {
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
+}
+
 .name,
 .main-nav li {
 	text-align: center;
 	background: #fff;
 	margin-top: 6px;
 	margin-bottom: 6px;
-}
-
-.name a,
-.main-nav a {
-  padding: 10px 15px;
-  text-align: center;
-  display: block;
 }
 
   .main-nav a {
